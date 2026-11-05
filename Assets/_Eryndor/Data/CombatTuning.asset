@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92693041fb0e6a04d983974eb2c67485, type: 3}
+  m_Name: CombatTuning
+  m_EditorClassIdentifier: Eryndor.Data::Eryndor.Data.CombatTuningAsset
+  config:
+    baseHp: 100
+    hpPerVitality: 10
+    damagePerStrength: 0.05
+    counterWindowBase: 0.25
+    counterWindowPerAgility: 0.005
+    counterWindowMax: 0.4
+    counterDamageMultiplier: 2.5
+    counterManaGain: 15
+    counterStunDuration: 1
+    counterWhiffPenalty: 0.6
+    comboFinisherMultiplier: 1.5
+    manaPerHit: 3
+    maxMana: 100
+    maxStamina: 100
+    staminaRegenPerSecond: 25
+    dodgeStaminaCost: 20
+    dodgeInvulnerability: 0.2
+    empowerDuration: 5
+    empowerCooldown: 20
+    empowerMultiplier: 2

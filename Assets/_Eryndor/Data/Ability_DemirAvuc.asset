@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fac3851612928d549a567886e956082c, type: 3}
+  m_Name: Ability_DemirAvuc
+  m_EditorClassIdentifier: Eryndor.Data::Eryndor.Data.AbilityDefinition
+  id: tech_iron_palm
+  displayName: "Demir Avu\xE7"
+  description: "\xD6ne at\u0131lan g\xFC\xE7l\xFC vuru\u015F, savunmay\u0131 k\u0131rar."
+  kind: 0
+  icon: {fileID: 0}
+  manaCost: 30
+  baseDamage: 45
+  range: 3
+  duration: 0
+  counterWindowMultiplier: 1
+  breaksShield: 1
+  cooldown: 1

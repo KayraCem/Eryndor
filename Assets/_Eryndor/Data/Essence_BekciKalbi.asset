@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21d49e48e35be494db77291488fcf1c2, type: 3}
+  m_Name: Essence_BekciKalbi
+  m_EditorClassIdentifier: Eryndor.Data::Eryndor.Data.EssenceDefinition
+  id: essence_warden_heart
+  displayName: "Bek\xE7i Kalbi"
+  description: "Counter sonras\u0131 k\u0131sa dokunulmazl\u0131k, +3 VIT."
+  rarity: 2
+  icon: {fileID: 0}
+  bonuses:
+  - type: 6
+    value: 0.5
+  - type: 2
+    value: 3

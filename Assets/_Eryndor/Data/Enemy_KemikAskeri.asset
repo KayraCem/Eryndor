@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a0775f862afa36489d65b1dab50777a, type: 3}
+  m_Name: Enemy_KemikAskeri
+  m_EditorClassIdentifier: Eryndor.Data::Eryndor.Data.EnemyDefinition
+  id: enemy_bone_soldier
+  displayName: Kemik Askeri
+  description: "Yava\u015F, uzun uyar\u0131l\u0131; counter \xF6\u011Fretir."
+  stats:
+    strength: 4
+    agility: 2
+    vitality: 0
+  maxHpOverride: 80
+  defense: 2
+  patrolSpeed: 1.2
+  chaseSpeed: 2.8
+  sightRange: 12
+  sightAngle: 110
+  hearingRange: 5
+  suspicionTime: 0.5
+  attacks:
+  - id: bone_slash
+    displayName: "Kemik Kesi\u011Fi"
+    baseDamage: 14
+    windupTime: 0.9
+    recoveryTime: 0.8
+    minRange: 0
+    maxRange: 2
+    counterable: 1
+    isArea: 0
+    weight: 1
+  essenceDrop: {fileID: 11400000, guid: 0fe03de078606ad4c87323f98b8bf18c, type: 2}
+  essenceDropChance: 0.25
+  lootTable: {fileID: 11400000, guid: 96aca33276e57504d8e0b6e79f075ab8, type: 2}
+  barks: {fileID: 11400000, guid: 4713220163dc2b848b8770d180b5d653, type: 2}
+  isBoss: 0
+  rageThreshold: 0
+  rageSpeedMultiplier: 1.3

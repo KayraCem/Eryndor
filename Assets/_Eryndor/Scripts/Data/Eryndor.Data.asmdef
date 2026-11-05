@@ -1,0 +1,14 @@
+{
+    "name": "Eryndor.Data",
+    "rootNamespace": "Eryndor.Data",
+    "references": [ "Eryndor.Core" ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

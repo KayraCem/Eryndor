@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a0775f862afa36489d65b1dab50777a, type: 3}
+  m_Name: Enemy_Gorrath
+  m_EditorClassIdentifier: Eryndor.Data::Eryndor.Data.EnemyDefinition
+  id: boss_gorrath
+  displayName: "Kat Bek\xE7isi Gorrath"
+  description: "\u0130lk Kat'\u0131n bek\xE7isi."
+  stats:
+    strength: 8
+    agility: 4
+    vitality: 0
+  maxHpOverride: 600
+  defense: 3
+  patrolSpeed: 2
+  chaseSpeed: 3.2
+  sightRange: 12
+  sightAngle: 110
+  hearingRange: 5
+  suspicionTime: 0.5
+  attacks:
+  - id: slam
+    displayName: Ezici Darbe
+    baseDamage: 25
+    windupTime: 0.8
+    recoveryTime: 0.9
+    minRange: 0
+    maxRange: 3
+    counterable: 1
+    isArea: 0
+    weight: 3
+  - id: combo
+    displayName: "\xDC\xE7l\xFC Vuru\u015F"
+    baseDamage: 18
+    windupTime: 0.6
+    recoveryTime: 0.7
+    minRange: 0
+    maxRange: 2.5
+    counterable: 1
+    isArea: 0
+    weight: 2
+  - id: lunge
+    displayName: "At\u0131lma"
+    baseDamage: 22
+    windupTime: 0.7
+    recoveryTime: 1
+    minRange: 3
+    maxRange: 8
+    counterable: 1
+    isArea: 0
+    weight: 2
+  - id: essence_wave
+    displayName: "Essence Dalgas\u0131"
+    baseDamage: 20
+    windupTime: 1
+    recoveryTime: 1.2
+    minRange: 0
+    maxRange: 6
+    counterable: 0
+    isArea: 1
+    weight: 1
+  essenceDrop: {fileID: 11400000, guid: 5eebda98158400a4284c68b1551f4a49, type: 2}
+  essenceDropChance: 1
+  lootTable: {fileID: 11400000, guid: c0e0974470b737f458a53ef86bdc5c16, type: 2}
+  barks: {fileID: 11400000, guid: 4831d266c02053747bae970408de6ae2, type: 2}
+  isBoss: 1
+  rageThreshold: 0.5
+  rageSpeedMultiplier: 1.3

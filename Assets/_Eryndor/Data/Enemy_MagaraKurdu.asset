@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a0775f862afa36489d65b1dab50777a, type: 3}
+  m_Name: Enemy_MagaraKurdu
+  m_EditorClassIdentifier: Eryndor.Data::Eryndor.Data.EnemyDefinition
+  id: enemy_cave_wolf
+  displayName: "Ma\u011Fara Kurdu"
+  description: "H\u0131zl\u0131, grup halinde."
+  stats:
+    strength: 2
+    agility: 8
+    vitality: 0
+  maxHpOverride: 40
+  defense: 0
+  patrolSpeed: 2
+  chaseSpeed: 5
+  sightRange: 12
+  sightAngle: 110
+  hearingRange: 5
+  suspicionTime: 0.5
+  attacks:
+  - id: wolf_bite
+    displayName: "Is\u0131r\u0131k"
+    baseDamage: 6
+    windupTime: 0.45
+    recoveryTime: 0.5
+    minRange: 0
+    maxRange: 1.6
+    counterable: 1
+    isArea: 0
+    weight: 1
+  essenceDrop: {fileID: 11400000, guid: 8bbe57291ddaa2b4390c3b5662c97902, type: 2}
+  essenceDropChance: 0.3
+  lootTable: {fileID: 11400000, guid: 96aca33276e57504d8e0b6e79f075ab8, type: 2}
+  barks: {fileID: 0}
+  isBoss: 0
+  rageThreshold: 0
+  rageSpeedMultiplier: 1.3

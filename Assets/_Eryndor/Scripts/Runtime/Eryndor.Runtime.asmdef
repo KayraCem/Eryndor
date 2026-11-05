@@ -1,0 +1,20 @@
+{
+    "name": "Eryndor.Runtime",
+    "rootNamespace": "Eryndor.Runtime",
+    "references": [
+        "Eryndor.Core",
+        "Eryndor.Data",
+        "Unity.InputSystem",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
