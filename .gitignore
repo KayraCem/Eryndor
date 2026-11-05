@@ -36,3 +36,6 @@ Assets/StreamingAssets/apikey*
 .plastic/
 ignore.conf
 .vsconfig
+
+# Claude ile üretilen teslim dosyaları (repoya girmez)
+Claude outputs/
